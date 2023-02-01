@@ -8,7 +8,7 @@ import { Visual } from "./section/Visual.js";
 export default function Index() {
   const user = useOptionalUser();
   const [visualNum, setVisualNum] = useState(0);  
-//   const callTelNum = {'tel:' + vars.REACT_APP_CENTER_TEL};
+  
   const visual0Chg = (setNum) => {
     setVisualNum(setNum);
 

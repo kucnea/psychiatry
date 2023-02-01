@@ -77,7 +77,18 @@ export const links = () => {
 export const meta = () => ({
   charset: "utf-8",
   title: "구리언어심리상담센터",
-  viewport: "width=device-width,initial-scale=1",
+  viewport: "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no",
+  imageToolbar: "no",
+  XUACompatible: "IE=10,chrome=1",
+  keywords: "구리언어심리상담센터",
+  keywords: "구리아동상담 구리언어치료 구리놀이치료 구리미술치료 구리aba 구리bcba 구리qba 구리esdm 구리인지 구리인지학습 구리학습치료 구리조기교실 구리언어 구리청소년상담 구리성인상담 구리지능검사 구리성격검사 구리풀배터리 구리기질검사 구리발달검사 구리상담센터 구리발달센터 구리아동상담센터 구리아동발달센터 (구리/남양주/다산/송파/하남/양평)",
+  description: "안녕하세요. 구리언어심리상담센터 입니다. 환영합니다.",
+  robots: "index, follow",
+  Author: "이민호",
+  refresh: "3600",
+  refresh: "Split vertical out",
+  HandheldFriendly: "true",
+  formatDetection: "telephone=no"
 });
 
 export async function loader({ request }) {
@@ -96,24 +107,24 @@ export default function App() {
         <HelmetProvider>
           <Helmet>
             <title>{vars.REACT_APP_CENTER_NAME}</title>
-            <meta http-equiv="Title" content={vars.REACT_APP_CENTER_NAME} />
+            {/* <meta http-equiv="Title" content={vars.REACT_APP_CENTER_NAME} /> */}
             {/* 그림위에 마우스 오버시 이미지 관련 툴바가 생기지 않도록 정의합니다. */}
-            <meta http-equiv="imagetoolbar" content="no" /> 
+            {/* <meta http-equiv="imagetoolbar" content="no" />  */}
             {/* 해당 브라우저 버전으로 랜더링 */}
-            <meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1" /> 
+            {/* <meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1" />  */}
             {/* 검색엔진에 검색되기 위한 키워드를 정의, 태그 동일이름으로 여러개 가능 */}
-            <meta name="keywords" content="구리언어심리상담센터" />
-            <meta name="keywords" content="구리아동상담 구리언어치료 구리놀이치료 구리미술치료 구리aba 구리bcba 구리qba 구리esdm 구리인지 구리인지학습 구리학습치료 구리조기교실 구리언어 구리청소년상담 구리성인상담 구리지능검사 구리성격검사 구리풀배터리 구리기질검사 구리발달검사 구리상담센터 구리발달센터 구리아동상담센터 구리아동발달센터 (구리/남양주/다산/송파/하남/양평)"/>
+            {/* <meta name="keywords" content="구리언어심리상담센터" /> */}
+            {/* <meta name="keywords" content="구리아동상담 구리언어치료 구리놀이치료 구리미술치료 구리aba 구리bcba 구리qba 구리esdm 구리인지 구리인지학습 구리학습치료 구리조기교실 구리언어 구리청소년상담 구리성인상담 구리지능검사 구리성격검사 구리풀배터리 구리기질검사 구리발달검사 구리상담센터 구리발달센터 구리아동상담센터 구리아동발달센터 (구리/남양주/다산/송파/하남/양평)"/> */}
             {/* 해당 페이지의 설명을 정의합니다. (최대 공백포함150 글자 ) 검색 결과에 표시되는 문구 */}
-            <meta name="description" content="안녕하세요. 구리언어심리상담센터 입니다. 환영합니다." />
+            {/* <meta name="description" content="안녕하세요. 구리언어심리상담센터 입니다. 환영합니다." /> */}
             {/* 검색 로봇에 대한 명령, content에  noindex시 검색결과 포함안됨, 관리자페이지 같은경우 */}
-            <meta name="robots" content="index, follow" />
+            {/* <meta name="robots" content="index, follow" /> */}
             {/* 제작자 */}
-            <meta http-equiv="Author" content="이민호" />
+            {/* <meta http-equiv="Author" content="이민호" /> */}
             {/* content(s) 마다 페이지 새로고침 "5; url = 주소" 도 가능 */}
-            <meta http-equiv="refresh" content="3600" />
+            {/* <meta http-equiv="refresh" content="3600" /> */}
             {/* 페이지 들어갈때 장면 전환 효과 */}
-            <meta http-equiv="refresh" content="Split vertical out" />
+            {/* <meta http-equiv="refresh" content="Split vertical out" /> */}
             {/* sns공유 200x200 */}
             <meta property="og:image" content={vars.REACT_APP_URL+'/image/visual1.jpg'} /> 
             {/* 안드로이드계열 ico사용 128*128 */}
@@ -124,9 +135,9 @@ export default function App() {
             {/* <link rel="icon" type="image/x-icon" href="http://www.-.com/board/img/favicon.ico" /> */}
 
             {/* 모바일용 */}
-            <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-            <meta name="HandheldFriendly" content="true" />
-            <meta name="format-detection" content="telephone=no" />
+            {/* <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" /> */}
+            {/* <meta name="HandheldFriendly" content="true" /> */}
+            {/* <meta name="format-detection" content="telephone=no" /> */}
 
             {/* css가 pc용 mobile용 만들어진거 쓸것 */}
             {/* PC용 CSS */}
