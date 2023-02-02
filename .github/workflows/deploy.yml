@@ -63,8 +63,6 @@ jobs:
         uses: bahmutov/npm-install@v1
         with:
           useLockFile: false
-      - name: 🛠 Setup Database
-        run: npx prisma migrate reset --force
       - name: ⚙️ Build
         run: npm run build
       - name: 🌳 Cypress run
