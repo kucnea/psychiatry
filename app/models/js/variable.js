@@ -1,5 +1,6 @@
 export const REACT_APP_CENTER_NAME ="구리언어심리상담센터";
-export const REACT_APP_URL = "http://localhost:3000";
+// export const REACT_APP_URL = "http://localhost:3000";
+export const REACT_APP_URL = "https://guriaba.co.kr";
 export const REACT_APP_REAL_URL = "https://guriaba.co.kr";
 export const REACT_APP_CENTER_TEL = "031-555-5527"
 export const REACT_APP_CENTER_FAX = "031-555-5547"
