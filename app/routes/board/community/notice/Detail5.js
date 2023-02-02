@@ -57,7 +57,7 @@ export function NoticeDetail() {
       <div id="bo_v_table">공지사항</div>
       <article id="bo_v" style={{ width: "100%" }}>
         <header>
-          <h1 id="bo_v_title">신학기 종합 심리 가검사/발달 검사 10% 할인 </h1>
+          <h1 id="bo_v_title">신학기 종합 심리검사/발달 검사 10% 할인 </h1>
         </header>
         <section id="bo_v_atc">
           <h2 id="bo_v_atc_title">본문</h2>

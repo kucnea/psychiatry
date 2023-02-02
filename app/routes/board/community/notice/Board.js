@@ -127,7 +127,7 @@ export function NoticeBoard() {
                     <tr className="">
                         <td className="td_subject">
                             <Link to="/board/community/notice/detail5">
-                            신학기 종합 심리 가검사/발달 검사 10% 할인{" "}
+                            신학기 종합 심리검사/발달 검사 10% 할인{" "}
                             </Link>
                             <img
                             src={vars.REACT_APP_URL + '/image/community/icon_hot.gif'}

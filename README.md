@@ -109,6 +109,8 @@ Prior to your first deployment, you'll need to do a few things:
 - Add a `SESSION_SECRET` to your fly app secrets, to do this you can run the following commands:
 
   ```sh
+  npx arc env --add --env staging SESSION_SECRET $(openssl rand -hex 32)
+  npx arc env --add --env production SESSION_SECRET $(openssl rand -hex 32)
   fly secrets set SESSION_SECRET=$(openssl rand -hex 32) --app second_project-feea
   fly secrets set SESSION_SECRET=$(openssl rand -hex 32) --app second_project-feea-staging
   ```
