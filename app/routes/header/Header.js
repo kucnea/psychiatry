@@ -189,8 +189,8 @@ export function Header() {
                       </ul>
                     </div>
                   </li>
-                  <li id="menu2" className="gnb1d gnb02">
-                    <Link to="/board/programs/detail" className="gnb1d" onMouseOver={() => menuNavi(2)} onMouseOut={() => menuNaviOut(2)}>
+                  <li id="menu2" className="gnb1d gnb02" onMouseOver={() => menuNavi(2)} onMouseOut={() => menuNaviOut(2)}>
+                    <Link to="/board/programs/detail" className="gnb1d">
                       치료/검사프로그램
                     </Link>
                     <div id="menusub2" className="submenu menu02">
@@ -315,8 +315,8 @@ export function Header() {
                       </ul>
                     </div> */}
                   </li>
-                  <li id="menu3" className="gnb1d gnb03">
-                    <Link to="/board/consult/askanswer/board" className="gnb1d" onMouseOver={() => menuNavi(3)} onMouseOut={() => menuNaviOut(3)}>
+                  <li id="menu3" className="gnb1d gnb03" onMouseOver={() => menuNavi(3)} onMouseOut={() => menuNaviOut(3)}>
+                    <Link to="/board/consult/askanswer/board" className="gnb1d">
                       상담/문의
                     </Link>
                     <div id="menusub3" className="submenu menu03">
@@ -329,8 +329,8 @@ export function Header() {
                       </ul>
                     </div>
                   </li>
-                  <li id="menu4" className="gnb1d gnb04">
-                    <Link to="/board/community/notice/board" className="gnb1d" onMouseOver={() => menuNavi(4)} onMouseOut={() => menuNaviOut(4)}>
+                  <li id="menu4" className="gnb1d gnb04" onMouseOver={() => menuNavi(4)} onMouseOut={() => menuNaviOut(4)}>
+                    <Link to="/board/community/notice/board" className="gnb1d">
                       커뮤니티
                     </Link>
                     <div id="menusub4" className="submenu menu04">
