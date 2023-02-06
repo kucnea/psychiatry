@@ -167,6 +167,11 @@ export function Header() {
                           </Link>
                         </li>
                         <li>
+                          <Link to="/board/introduce/teacher/ceo">
+                            <span>센터장 소개</span>
+                          </Link>
+                        </li>
+                        <li>
                           <Link to="/board/introduce/teacher/teacher">
                             <span>치료사 소개</span>
                           </Link>

@@ -209,6 +209,11 @@ export function Footer() {
                     </Link>
                 </li>
                 <li>
+                    <Link to="/board/introduce/teacher/ceo" onClick={() => forceCloseSiteMap()}>
+                    <span>센터장 소개</span>
+                    </Link>
+                </li>
+                <li>
                     <Link to="/board/introduce/teacher/teacher" onClick={() => forceCloseSiteMap()}>
                     <span>치료사 소개</span>
                     </Link>
