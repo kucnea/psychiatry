@@ -94,7 +94,7 @@ export function AskAnswerBoard() {
         </div>*/}
             <ul className="btn_bo_user">
                 <li>
-                <Link to="/board/consult/askanswer/write" className="btn_b02">
+                <Link onClick={() => window.alert('준비중입니다.')} className="btn_b02">
                     문의하기
                 </Link>
                 </li>{" "}

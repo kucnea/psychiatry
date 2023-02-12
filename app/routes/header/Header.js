@@ -127,7 +127,7 @@ export function Header() {
               {/*<li><a href="http://blog.naver.com" target="_blank">블로그</a> | </li>-*/}
               {/*<li><a href="http://www.gurislp.com/board/bbs/login.php">로그인</a>ㅣ</li> */}
               <li>
-                <Link to="/board/admin/adminpage">
+                <Link to="/">
                   <b>관리자</b>
                 </Link>
               </li>
