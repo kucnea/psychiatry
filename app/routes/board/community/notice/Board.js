@@ -126,6 +126,22 @@ export function NoticeBoard() {
                 <tbody>
                     <tr className="">
                         <td className="td_subject">
+                            <Link to="/board/community/notice/detail6">
+                            ABA 기능향상 개별 수업 3월부터 개설합니다.{" "}
+                            </Link>
+                            <img
+                            src={vars.REACT_APP_URL + '/image/community/icon_hot.gif'}
+                            alt="인기글"
+                            />
+                            <img
+                            src={vars.REACT_APP_URL + '/image/community/icon_file.gif'}
+                            alt="첨부파일"
+                            />{" "}
+                        </td>
+                        <td className="td_date">23-02-12</td>
+                    </tr>
+                    <tr className="">
+                        <td className="td_subject">
                             <Link to="/board/community/notice/detail5">
                             신학기 종합 심리검사/발달 검사 10% 할인{" "}
                             </Link>

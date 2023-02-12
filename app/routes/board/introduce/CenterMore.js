@@ -18,7 +18,7 @@ export function IntroduceCenterMore() {
                           "미술치료실.jpg","감각통합치료실1.jpg","감각통합치료실2.jpg",
                           "그룹치료실1.jpg","그룹치료실2.jpg",];
     
-    document.getElementById('fancybox').style = "display: block;";
+    document.getElementById('fancybox').style = "display: block; zIndex: 999";
     document.getElementById('fancyboxImage').src = vars.REACT_APP_URL + '/image/centermoreImg/'+imgFileNames[setNum-1];
   }
 
@@ -41,6 +41,19 @@ export function IntroduceCenterMore() {
         link.rel = 'stylesheet';
         link.type = 'text/css';
         link.href = '/styles/css/cm_style.css';
+        link.media='all';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    }
+
+    if(document.getElementById('fancy_style')){
+      var link = document.getElementById('fancy_style');
+      link.href = '/styles/css/fancybox.css';
+    }else{
+        var link = document.createElement('link');
+        link.id = 'fancy_style';
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '/styles/css/fancybox.css';
         link.media='all';
         document.getElementsByTagName('head')[0].appendChild(link);
     }
@@ -547,25 +560,12 @@ export function IntroduceCenterMore() {
       {/* 페이지 */}
       {/* Add mousewheel plugin (this is optional) */}
       {/* Add fancyBox */}
-      <link
+      {/* <link
         rel="stylesheet"
         href="http://www.gurislp.com/board/skin/board/simple_gallery_skin/source/jquery.fancybox.css?v=2.1.5"
         type="text/css"
         media="screen"
-      />
-      {/* Optionally add helpers - button, thumbnail and/or media */}
-      <link
-        rel="stylesheet"
-        href="http://www.gurislp.com/board/skin/board/simple_gallery_skin/source/helpers/jquery.fancybox-buttons.css?v=1.0.5"
-        type="text/css"
-        media="screen"
-      />
-      <link
-        rel="stylesheet"
-        href="http://www.gurislp.com/board/skin/board/simple_gallery_skin/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7"
-        type="text/css"
-        media="screen"
-      />
+      /> */}
       {/* } 게시판 목록 끝 */}
       {/* //게시판 목록 끝 */}
     </div>

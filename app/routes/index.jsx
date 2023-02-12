@@ -4,11 +4,14 @@ import { useLocation } from 'react-router-dom';
 import { useOptionalUser } from "~/utils";
 import * as vars from "../models/js/variable.js";
 import { Visual } from "./section/Visual.js";
+import Cookies from 'js-cookie';
+import {FirstModal} from "./modal/FirstModal.js"
+import {SecondModal} from "./modal/SecondModal.js"
 
 export default function Index() {
   const user = useOptionalUser();
   const [visualNum, setVisualNum] = useState(0);  
-  
+
   const visual0Chg = (setNum) => {
     setVisualNum(setNum);
 
@@ -64,6 +67,8 @@ export default function Index() {
   return (
     <>    
     <section id="visual">
+    <FirstModal/>
+    <SecondModal/>
     <div className="rslides_container">
         <ul className="rslides centered-btns centered-btns1" id="slider1">
         <li
@@ -125,7 +130,7 @@ export default function Index() {
     </div>
     <div className="slidebox_mobile">
         <li className="slide02">
-        <Link to="/board/introduce/teacher/teacher">
+        <Link to="/board/introduce/teacher/ceo">
             <ul className="cell">
             <li className="left">
                 <h2>치료사 소개</h2>

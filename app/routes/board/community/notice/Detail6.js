@@ -57,7 +57,7 @@ export function NoticeDetail() {
       <div id="bo_v_table">공지사항</div>
       <article id="bo_v" style={{ width: "100%" }}>
         <header>
-          <h1 id="bo_v_title">신학기 종합 심리검사/발달 검사 10% 할인 </h1>
+          <h1 id="bo_v_title">ABA 기능향상 개별 수업 3월부터 개설합니다. </h1>
         </header>
         <section id="bo_v_atc">
           <h2 id="bo_v_atc_title">본문</h2>
@@ -65,13 +65,11 @@ export function NoticeDetail() {
           <div id="bo_v_con">
             안녕하세요.
             <br /><br />
-            구리언어심리상담센터 신학기 <u>EVENT</u> 진행합니다.
-            <br />
-            검사 할인은 선착순으로 진행됩니다.
-            <br />
-            문의사항은 {vars.REACT_APP_CENTER_TEL}로 연락주시면
-            <br/>
-            자세한 상담 도와드리겠습니다.
+            구리언어심리상담센터 새로운 수업 정보입니다.<br/>
+            ABA 기능향상 개별 수업 3월부터 개설합니다.<br/>
+            언어, 인지, 소근육, 자조, 학습 증진 및 문제행동 감소를 위한 집중개입 수업입니다.<br /><br/>
+            &lt;원장님 직접 수업 및 모든 아동 원장님 직접 슈퍼비전&gt;<br />
+            문의 : {vars.REACT_APP_CENTER_TEL}, 010-7569-5527
             <br /><br />
             감사합니다.
           </div>
@@ -96,15 +94,15 @@ export function NoticeDetail() {
       <div id="bo_v_top">
         <ul className="bo_v_nb">
           <li>
-            <Link to="/board/community/notice/detail4" className="btn_b01">
+            <Link to="/board/community/notice/detail5" className="btn_b01">
               이전글
             </Link>
           </li>{" "}
-          <li>
-            <Link to="/board/community/notice/detail6" className="btn_b01">
+          {/* <li>
+            <Link to="/board/community/notice/deatil?idx=3" className="btn_b01">
               다음글
             </Link>
-          </li>{" "}
+          </li>{" "}           */}
         </ul>
         <ul className="bo_v_com">
           {/*            */}
