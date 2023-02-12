@@ -19,7 +19,6 @@ import default2 from "./styles/css/default2.css";
 // import style2 from "./styles/css/style2.css";
 // import m_bdr from "./styles/css/m_bdr.css";
 
-import { getUser } from "./session.server";
 import * as vars from "./models/js/variable.js";
 
 import { Footer } from "./routes/footer/Footer.js";
@@ -91,11 +90,6 @@ export const meta = () => ({
   formatDetection: "telephone=no"
 });
 
-export async function loader({ request }) {
-  return json({
-    user: await getUser(request),
-  });
-}
 
 export default function App() {
   return (

@@ -143,7 +143,7 @@ export function CEO() {
                       }}
                     >
                       {" "}
-                      센터장 / ABA / ESDM
+                      ABA / ESDM
                     </td>
                   </tr>
                   <tr>

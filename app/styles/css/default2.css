@@ -95,11 +95,11 @@ a,area{blr:expression(this.onFocus=this.blur())}a,input{outline:none;}
 
 
 /* 서브메뉴배경*/ #GNB ul li .submenu{ display:none; background:#8bba1f; height:25px; position:absolute; top:50px; color:#fff; text-align:left; padding-top:5px; padding-left:20px; padding-right:20px;}
-#GNB ul li .menu01{position:absolute; left:70ox;;width:470px; }
+#GNB ul li .menu01{position:absolute; left:70ox;;width:550px; }
 /* #GNB ul li .menu02{position:absolute; left:-130px;width:480px; } */
 #GNB ul li .menu02{position:absolute; left:-20%;width:200px; }
 #GNB ul li .menu03{position:absolute; left:20px;}
-#GNB ul li .menu04{position:absolute; left:-50px;width:170px; }
+#GNB ul li .menu04{position:absolute; left:-50px;width:180px; }
 #GNB ul li .submenu ul{margin:0px;padding:0; float:left;}
 #GNB ul li .submenu ul.first {width:290px; height:150px; margin:10px 0 10px 20px; text-align:center; vertical-align:middle; border:none;}
 #GNB ul li .submenu ul.last {border-right:none;}

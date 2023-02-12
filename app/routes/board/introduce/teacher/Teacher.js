@@ -351,9 +351,9 @@ export function IntroduceTeacher() {
                           color: "#666"
                         }}
                       >
-                        한림대학교 보건과학대학원 언어병리학 학사
+                        한림대학교 보건과학대학원 언어병리학 석사
                         <br />
-                        한림대학교 언어청각학부 언어병리학 석사
+                        한림대학교 언어청각학부 언어병리학 학사
                       </div>
                       <br />
                       <div style={{ lineHeight: "22px", display: "inline-block" }}>
