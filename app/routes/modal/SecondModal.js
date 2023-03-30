@@ -23,7 +23,7 @@ export function SecondModal() {
   return (
 <>
 {modal1Value === 'false' ? null : (
-  <div id="modal2" className="hd_pops" style={{ top: "15%", left: "44%", zIndex: "951", border:"0.3em solid rgb(139,186,31)" }}>
+  <div id="modal2" className="hd_pops" style={{ top: "15%", left: "22%", zIndex: "951", border:"0.3em solid rgb(139,186,31)" }}>
   <div className="hd_pops_con" style={{ width: "100%", height: "100%"}}>
     <p style={{ lineHeight: "1.2em" }}>
       <span

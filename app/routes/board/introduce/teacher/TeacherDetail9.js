@@ -50,7 +50,7 @@ export function TeacherDetail() {
             <span>HOME</span>
           </span>
           <span className="fb">치료사 소개</span>
-          <span className="fb">최유림</span>{" "}
+          <span className="fb">최수하</span>{" "}
         </p>
       </div>
       {/* //상단서브타이틀*/}
@@ -114,7 +114,7 @@ export function TeacherDetail() {
                       <span 
                         className="add_title"
                         style={{ marginBottom: "5px", fontSize: "2em", color: "#333", fontWeight: "bold", display: "block", paddingBottom: "3px" }}>
-                        최유림
+                        최수하
                       </span>
                       {/* <span className="add_title_slogun"></span>*/}
                     </td>
@@ -144,7 +144,7 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      언어재활사
+                      ABA / ESDM 치료사
                     </td>
                   </tr>
                   <tr>
@@ -172,7 +172,13 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      한림대학교 언어병리학과 학사
+                      대구사이버대학교 행동치료학, 특수교육학
+                      <br />
+                      Early Start Denver Model – Introductory workshop
+                      <br />
+                      Early Start Denver Model – Advnced workshop
+                      <br />
+                      DIR Floortime 101 cerificate
                     </td>
                   </tr>
                   <tr>
@@ -200,7 +206,7 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      前) 이화심리상담센터
+                      前) 라라ABA연구소
                       <br />
                       現) 구리언어심리상담센터
                     </td>
@@ -230,7 +236,11 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      2급 언어재활사 자격증(보건복지부)
+                      보육교사
+                      <br />
+                      장애영유아 보육교사
+                      <br />
+                      ABAS – 한국행동분석전문가 자격
                     </td>
                   </tr>
                   
@@ -249,12 +259,12 @@ export function TeacherDetail() {
         <div id="bo_v_bot">
           <ul className="bo_v_nb">
             <li>
-              <Link to="/board/introduce/teacher/teacherdetail1" className="btn_b01">
+              <Link to="/board/introduce/teacher/teacherdetail8" className="btn_b01">
                 이전글
               </Link>
             </li>
             <li>
-              <Link to="/board/introduce/teacher/teacherdetail3" className="btn_b01">
+              <Link to="/board/introduce/teacher/teacherdetail10" className="btn_b01">
                 다음글
               </Link>
             </li>{" "}

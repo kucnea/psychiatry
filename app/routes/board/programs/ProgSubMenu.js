@@ -54,37 +54,37 @@ export function ProgSubMenu() {
                 </Link>
                 </li>                
                 <li>
-                <Link to="/board/cureprogram/language">
+                <Link to="/board/programs/cure/language">
                     <span>언어치료</span>
                 </Link>
                 </li>
                 <li>
-                <Link to="/board/cureprogram/notice">
+                <Link to="/board/programs/cure/notice">
                     <span>인지학습</span>
                 </Link>
                 </li>
                 <li>
-                <Link to="/board/cureprogram/play">
+                <Link to="/board/programs/cure/play">
                     <span>놀이치료</span>
                 </Link>
                 </li>
                 <li>
-                <Link to="/board/cureprogram/art">
+                <Link to="/board/programs/cure/art">
                     <span>미술치료</span>
                 </Link>
                 </li>
                 <li>
-                <Link to="/board/cureprogram/sense">
+                <Link to="/board/programs/cure/sense">
                     <span>감각통합치료</span>
                 </Link>
                 </li>
                 <li>
-                <Link to="/board/cureprogram/group">
+                <Link to="/board/programs/cure/group">
                     <span>그룹치료 </span>
                 </Link>
                 </li>
                 <li>
-                <Link to="/board/cureprogram/family">
+                <Link to="/board/programs/cure/family">
                     <span>가족상담</span>
                 </Link>
                 </li>
@@ -101,57 +101,57 @@ export function ProgSubMenu() {
                     </Link>
                     </li>                    
                     <li>
-                    <Link to="/board/cureprogram/language">
+                    <Link to="/board/programs/psytest/SimliTest">
                         <span>심리평가</span>
                     </Link>
                     </li>
                     <li>
-                    <Link to="/board/cureprogram/language">
+                    <Link to="/board/programs/psytest/detail">
                         <span>발달평가</span>
                     </Link>
                     </li>
                     <li>
-                    <Link to="/board/cureprogram/language">
+                    <Link to="/board/programs/psytest/detail">
                         <span>자폐검사</span>
                     </Link>
                     </li>
                     <li>
-                    <Link to="/board/cureprogram/language">
+                    <Link to="/board/programs/psytest/detail">
                         <span>기질검사</span>
                     </Link>
                     </li>
                     <li>
-                    <Link to="/board/cureprogram/language">
+                    <Link to="/board/programs/psytest/detail">
                         <span>성격검사</span>
                     </Link>
                     </li>
                     <li>
-                    <Link to="/board/cureprogram/language">
+                    <Link to="/board/programs/psytest/detail">
                         <span>부모양육스트레스검사</span>
                     </Link>
                     </li>
                     <li>
-                    <Link to="/board/cureprogram/language">
+                    <Link to="/board/programs/psytest/detail">
                         <span>mim검사</span>
                     </Link>
                     </li>
                     <li>
-                    <Link to="/board/cureprogram/language">
+                    <Link to="/board/programs/psytest/detail">
                         <span>애착유형검사</span>
                     </Link>
                     </li>
                     <li>
-                    <Link to="/board/cureprogram/language">
+                    <Link to="/board/programs/psytest/detail">
                         <span>행동평가</span>
                     </Link>
                     </li>
                     <li>
-                    <Link to="/board/cureprogram/language">
+                    <Link to="/board/programs/psytest/detail">
                         <span>언어평가</span>
                     </Link>
                     </li>
                     <li>
-                    <Link to="/board/cureprogram/language">
+                    <Link to="/board/programs/psytest/detail">
                         <span>놀이평가</span>
                     </Link>
                     </li>

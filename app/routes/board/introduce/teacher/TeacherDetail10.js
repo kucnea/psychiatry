@@ -50,7 +50,7 @@ export function TeacherDetail() {
             <span>HOME</span>
           </span>
           <span className="fb">치료사 소개</span>
-          <span className="fb">송은경</span>{" "}
+          <span className="fb">신현영</span>{" "}
         </p>
       </div>
       {/* //상단서브타이틀*/}
@@ -114,7 +114,7 @@ export function TeacherDetail() {
                       <span 
                         className="add_title"
                         style={{ marginBottom: "5px", fontSize: "2em", color: "#333", fontWeight: "bold", display: "block", paddingBottom: "3px" }}>
-                        송은경
+                        신현영
                       </span>
                       {/* <span className="add_title_slogun"></span>*/}
                     </td>
@@ -144,7 +144,7 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      언어치료사
+                      ABA 치료사
                     </td>
                   </tr>
                   <tr>
@@ -172,9 +172,12 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      한림대학교 보건과학대학원 언어병리학 석사
+                      학력 및 교육
                       <br/>
-                      한림대학교 언어청각학부 언어병리학 학사
+                      광운대학교 언어치료학 석사 과정
+                      <br/>
+                      ABA KOREA ACADEMY – COURSEWORK
+                      <br/>
                     </td>
                   </tr>
                   <tr>
@@ -202,11 +205,17 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      前) 대전다문화가정지원센터 언어지도사
+                      前) 강북ABA아동발달연구소 (오전조기, 오후조기, 사회성그룹, 개별기능향상)
                       <br />
-                      現) 서울중계사회복지관 아동발달지원센터 언어치료사
+                      前) 라솜메디칼의원아동발달클리닉
                       <br />
-                      現) 구리언어심리상담센터 언어치료사
+                      前) 의정부시종합사회복지관
+                      <br />
+                      前) 한국다문화복지협회
+                      <br />
+                      前) 포천시노인복지관
+                      <br />
+                      現) 구리언어심리상담센터
                     </td>
                   </tr>
                   <tr>
@@ -234,7 +243,9 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      언어재활사 1급(보건복지부)
+                      사회복지사 2급
+                      <br />
+                      QBA(Qualitified Applied Behavior Analysis Credentialing Board)국제행동분석전문가 자격 과정 중
                     </td>
                   </tr>
                   
@@ -253,13 +264,8 @@ export function TeacherDetail() {
         <div id="bo_v_bot">
           <ul className="bo_v_nb">
             <li>
-              <Link to="/board/introduce/teacher/teacherdetail1" className="btn_b01">
+              <Link to="/board/introduce/teacher/teacherdetail9" className="btn_b01">
                 이전글
-              </Link>
-            </li>
-            <li>
-              <Link to="/board/introduce/teacher/teacherdetail5" className="btn_b01">
-                다음글
               </Link>
             </li>{" "}
           </ul>

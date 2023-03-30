@@ -260,7 +260,7 @@ export function TeacherDetail() {
               </Link>
             </li>
             <li>
-              <Link to="/board/introduce/teacher/teacherdetail2" className="btn_b01">
+              <Link to="/board/introduce/teacher/teacherdetail3" className="btn_b01">
                 다음글
               </Link>
             </li>{" "}

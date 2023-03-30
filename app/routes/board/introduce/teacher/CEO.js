@@ -285,6 +285,35 @@ export function CEO() {
                         className="fa fa-chevron-circle-right"
                         style={{ marginRight: "0.250em", color: "#7d9d4e" }}
                       />
+                      강의
+                    </th>
+                  </tr>
+                  <tr>
+                    <td
+                      style={{
+                        paddingTop: 5,
+                        paddingLeft: 5,
+                        color: "#666",
+                        lineHeight: "1.750em"
+                      }}
+                    >
+                      {" "}
+                      AMAZON 임직원 대상 - Coping with critical illness
+                      <br />
+                    </td>
+                  </tr>
+                  <tr>
+                    <th
+                      style={{
+                        paddingTop: "1.000em",
+                        textAlign: "left",
+                        color: "#333"
+                      }}
+                    >
+                      <i
+                        className="fa fa-chevron-circle-right"
+                        style={{ marginRight: "0.250em", color: "#7d9d4e" }}
+                      />
                       교육사항
                     </th>
                   </tr>
@@ -377,6 +406,246 @@ export function CEO() {
                       前) 다정한지역아동센터
                       <br />
                       現) 구리언어심리상담센터
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              {/* 부원장 탭 */}
+              <br/>
+              <br/>
+              <table width="100%">
+                <tbody>
+                  <tr>
+                    <td>
+                      <span 
+                        className="add_title"
+                        style={{ marginBottom: "5px", fontSize: "2em", color: "#333", fontWeight: "bold", display: "block", paddingBottom: "3px" }}>
+                          남원희 부원장
+                          </span>
+                      {/* <span className="add_title_slogun"></span>*/}
+                    </td>
+                  </tr>
+                  <tr>
+                    <th
+                      style={{
+                        paddingTop: "1.000em",
+                        textAlign: "left",
+                        color: "#333"
+                      }}
+                    >
+                      <i
+                        className="fa fa-chevron-circle-right"
+                        style={{ marginRight: "0.250em", color: "#7d9d4e" }}
+                      />
+                      치료분야
+                    </th>
+                  </tr>
+                  <tr>
+                    <td
+                      style={{
+                        paddingTop: 5,
+                        paddingLeft: 5,
+                        color: "#666",
+                        lineHeight: "1.750em"
+                      }}
+                    >
+                      {" "}
+                      ABA / ESDM
+                    </td>
+                  </tr>
+                  <tr>
+                    <th
+                      style={{
+                        paddingTop: "1.000em",
+                        textAlign: "left",
+                        color: "#333"
+                      }}
+                    >
+                      <i
+                        className="fa fa-chevron-circle-right"
+                        style={{ marginRight: "0.250em", color: "#7d9d4e" }}
+                      />
+                      학력
+                    </th>
+                  </tr>
+                  <tr>
+                    <td
+                      style={{
+                        paddingTop: 5,
+                        paddingLeft: 5,
+                        color: "#666",
+                        lineHeight: "1.750em"
+                      }}
+                    >
+                      {" "}
+                      가톨릭대학교 심리학사
+                      <br />
+                      가톨릭대학교 일반대학원 발달심리학 석사
+                      <br />
+                    </td>
+                  </tr>
+                  <tr>
+                    <th
+                      style={{
+                        paddingTop: "1.000em",
+                        textAlign: "left",
+                        color: "#333"
+                      }}
+                    >
+                      <i
+                        className="fa fa-chevron-circle-right"
+                        style={{ marginRight: "0.250em", color: "#7d9d4e" }}
+                      />
+                      자격사항
+                    </th>
+                  </tr>
+                  <tr>
+                    <td
+                      style={{
+                        paddingTop: 5,
+                        paddingLeft: 5,
+                        color: "#666",
+                        lineHeight: "1.750em"
+                      }}
+                    >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style={{
+                        paddingTop: 5,
+                        paddingLeft: 5,
+                        color: "#666",
+                        lineHeight: "1.750em"
+                      }}
+                    >
+                      {" "}
+                      QBA(Qualitified Applied Behavior Analysis Credentialing Board) - 국제
+                      <br />
+                      응용행동분석전문가 자격
+                      <br />
+                      놀이심리상담사
+                      <br />
+                      청소년상담사
+                      <br />
+                      임상심리사
+                      <br />
+                      인지학습심리상담사 2급
+                    </td>
+                  </tr>
+                  <tr>
+                    <th
+                      style={{
+                        paddingTop: "1.000em",
+                        textAlign: "left",
+                        color: "#333"
+                      }}
+                    >
+                      <i
+                        className="fa fa-chevron-circle-right"
+                        style={{ marginRight: "0.250em", color: "#7d9d4e" }}
+                      />
+                      강의
+                    </th>
+                  </tr>
+                  <tr>
+                    <td
+                      style={{
+                        paddingTop: 5,
+                        paddingLeft: 5,
+                        color: "#666",
+                        lineHeight: "1.750em"
+                      }}
+                    >
+                      {" "}
+                      석관초등학교 교사연구 : 교실내 위기학생 이해와 문제행동 대처방법
+                      <br />
+                    </td>
+                  </tr>
+                  <tr>
+                    <th
+                      style={{
+                        paddingTop: "1.000em",
+                        textAlign: "left",
+                        color: "#333"
+                      }}
+                    >
+                      <i
+                        className="fa fa-chevron-circle-right"
+                        style={{ marginRight: "0.250em", color: "#7d9d4e" }}
+                      />
+                      교육사항
+                    </th>
+                  </tr>
+                  <tr>
+                    <td
+                      style={{
+                        paddingTop: 5,
+                        paddingLeft: 5,
+                        color: "#666",
+                        lineHeight: "1.750em"
+                      }}
+                    >
+                      {" "}
+                      Early Start Denver Model – Introductory workshop
+                      <br />
+                      DIR Floortime 101 cerificate
+                      <br />
+                      ABA KOREA ACADEMY – COURSEWORK
+                      <br />
+                      K-WISC-Ⅴ 워크샵
+                      <br />
+                      K-WPPSI-Ⅳ 워크샵
+                      <br />
+                      발달평가 워크샵
+                      <br />
+                      놀이평가 워크샵
+                      <br />
+                      낯선상황절차(SSP)를 통한 영아애착분류 워크샵
+                      <br />
+                      애착증진부모교육 프로그램 워크샵
+                    </td>
+                  </tr>
+                  <tr>
+                    <th
+                      style={{
+                        paddingTop: "1.000em",
+                        textAlign: "left",
+                        color: "#333"
+                      }}
+                    >
+                      <i
+                        className="fa fa-chevron-circle-right"
+                        style={{ marginRight: "0.250em", color: "#7d9d4e" }}
+                      />
+                      경력사항
+                    </th>
+                  </tr>
+                  <tr>
+                    <td
+                      style={{
+                        paddingTop: 5,
+                        paddingLeft: 5,
+                        color: "#666",
+                        lineHeight: "1.750em"
+                      }}
+                    >
+                      {" "}
+                      前) 성북강북 HELP ME 위기학생컨설팅지원단 위원
+                      <br />
+                      前) 인천서부WEE센터
+                      <br />
+                      前) 가톨릭대학교 아동심리치료연구실
+                      <br />
+                      前) 이안아동발달연구소
+                      <br />
+                      前) 헬로스마일 목동점
+                      <br />
+                      前) 늘해랑인지심리연구소
+                      <br />
+                      前) 강북ABA아동발달연구소
+                      <br />
+                      現) 구리언어심리상담센터 부원장
                     </td>
                   </tr>
                 </tbody>

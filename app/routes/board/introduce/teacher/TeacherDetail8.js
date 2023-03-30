@@ -50,7 +50,7 @@ export function TeacherDetail() {
             <span>HOME</span>
           </span>
           <span className="fb">치료사 소개</span>
-          <span className="fb">손정규</span>{" "}
+          <span className="fb">최서라</span>{" "}
         </p>
       </div>
       {/* //상단서브타이틀*/}
@@ -114,7 +114,7 @@ export function TeacherDetail() {
                       <span 
                         className="add_title"
                         style={{ marginBottom: "5px", fontSize: "2em", color: "#333", fontWeight: "bold", display: "block", paddingBottom: "3px" }}>
-                        손정규
+                        최서라
                       </span>
                       {/* <span className="add_title_slogun"></span>*/}
                     </td>
@@ -144,7 +144,7 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      심리치료/심리검사
+                      언어치료사
                     </td>
                   </tr>
                   <tr>
@@ -172,9 +172,7 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      가톨릭대학교 사회과학부 심리/사회복지학과 학사
-                      <br/>
-                      성신여자대학교 일반대학원 음악치료학과 음악치료 전공 석사
+                      대구카톨릭대학교 언어청각치료학
                     </td>
                   </tr>
                   <tr>
@@ -202,27 +200,17 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      前) 국군수도병원
+                      前) 삼성소리샘복지관
                       <br />
-                      前) 분당상탑초등학교 특수반
+                      前) 호평언어심리상담센터
                       <br />
-                      前) 서울상담심리연구소
+                      前) 구로아동심리발달센터
                       <br />
-                      前) 서울까리타스알코올상담센터
+                      前) 경신언어청각연구소
                       <br />
-                      前) 청소년희망재단
+                      前) 카톨릭청각음성재활센터
                       <br />
-                      前) 두그루아동심리상담센터
-                      <br />
-                      現) 한신플러스케어
-                      <br />
-                      現) 전국음악치료사협회
-                      <br />
-                      現) 헬로스마일
-                      <br />
-                      現) 마음과 음악 치료커뮤니티
-                      <br />
-                      現) 성신여대 출강                      
+                      前) 부산광역시장애인복지관
                       <br />
                       現) 구리언어심리상담센터
                     </td>
@@ -252,17 +240,9 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      상담심리사 2급(한국상담심리학회)
+                      언어재활사 2급
                       <br />
-                      임상심리사 2급(산업인력공단)
-                      <br />
-                      청소년상담사 2급(여성가족부)
-                      <br />
-                      음악중재전문가(전국음악치료사협회)
-                      <br />
-                      사회복지사 1급(보건복지부)
-                      <br />
-                      사회조사분석사 2급(산업인력공단)
+                      청능사 자격증
                     </td>
                   </tr>
                   
@@ -283,6 +263,11 @@ export function TeacherDetail() {
             <li>
               <Link to="/board/introduce/teacher/teacherdetail7" className="btn_b01">
                 이전글
+              </Link>
+            </li>
+            <li>
+              <Link to="/board/introduce/teacher/teacherdetail9" className="btn_b01">
+                다음글
               </Link>
             </li>{" "}
           </ul>

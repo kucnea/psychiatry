@@ -265,59 +265,6 @@ export function IntroduceTeacher() {
                   </ul>
                 </li>
                 <li className="gall_li_teacher ">
-                  <span className="sound_only">9 </span>
-                  <ul className="gall_con">
-                    <li className="gall_href">
-                      <Link to="/board/introduce/teacher/teacherdetail2">
-                        <div className="profile">
-                          <img
-                            src={vars.REACT_APP_URL + '/image/no_image.png'}
-                            align="absmiddle"
-                            border={0}
-                          />
-                        </div>{" "}
-                      </Link>
-                    </li>
-                    <li className="pr_btn">
-                      <Link to="/board/introduce/teacher/teacherdetail2">
-                        프로필 보기
-                      </Link>
-                    </li>
-                    <li className="gall_text_href">
-                      <Link to="/board/introduce/teacher/teacherdetail2" className="add_title">
-                        최유림
-                      </Link>
-                      <br />
-                      <b style={{ color: "#333" }}>언어재활사</b>
-                      <br />
-                      <br />
-                      <div
-                        style={{
-                          lineHeight: "22px",
-                          display: "inline-block",
-                          color: "#666"
-                        }}
-                      >
-                        한림대학교 언어병리학과 학사
-                      </div>
-                      <br />
-                      <div style={{ lineHeight: "22px", display: "inline-block" }}>
-                        前) 이화심리상담센터
-                        <br />
-                        現) 구리언어심리상담센터
-                      </div>
-                      <br />
-                      <p />
-                      <Link to="/board/introduce/teacher/teacherdetail2"/>
-                    </li>
-                    <li>
-                      <Link to="/board/introduce/teacher/teacherdetail2">
-                        {" "}
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="gall_li_teacher ">
                   <span className="sound_only">8 </span>
                   <ul className="gall_con">
                     <li className="gall_href">
@@ -584,66 +531,6 @@ export function IntroduceTeacher() {
                     </li>
                   </ul>
                 </li>
-                {/* <li className="gall_li_teacher ">
-                  <span className="sound_only">2 </span>
-                  <ul className="gall_con">
-                    <li className="gall_href">
-                      <a href="http://www.gurislp.com/board/bbs/board.php?bo_table=teacher&wr_id=122">
-                        <div className="profile">
-                          <img
-                            src={vars.REACT_APP_URL + '/image/no_image.png'}
-                            align="absmiddle"
-                            border={0}
-                          />
-                        </div>{" "}
-                      </a>
-                    </li>
-                    <li className="pr_btn">
-                      <a href="http://www.gurislp.com/board/bbs/board.php?bo_table=teacher&wr_id=122">
-                        프로필 보기
-                      </a>
-                    </li>
-                    <li className="gall_text_href">
-                      <a
-                        href="http://www.gurislp.com/board/bbs/board.php?bo_table=teacher&wr_id=122"
-                        className="add_title"
-                      >
-                        김수정
-                      </a>
-                      <br />
-                      <b style={{ color: "#333" }}>감각통합치료사</b>
-                      <br />
-                      <br />
-                      <div style={{ lineHeight: "22px", display: "inline-block", color: "#666" }}>
-                        경복대학교 작업치료 학사
-                      </div>
-                      <br />
-                      <div style={{ lineHeight: "22px", display: "inline-block" }}>
-                        前) 예빛병원 외 다수 재활 병원 근무
-                        <br />
-                        前) 베트남 광찌성 여린현 재활센터
-                        <br />
-                        前) 브레이닝 아동 발달센터
-                        <br />
-                        前) 참사랑 아동 발달센터
-                        <br />
-                        前) 라임 아동 발달센터
-                        <br />
-                        前) 구리 하람 아동 발달센터
-                        <br />
-                        現) 구리언어심리상담센터
-                      </div>
-                      <br />
-                      <p />
-                      <a href="http://www.gurislp.com/board/bbs/board.php?bo_table=teacher&wr_id=122"></a>
-                    </li>
-                    <li>
-                      <a href="http://www.gurislp.com/board/bbs/board.php?bo_table=teacher&wr_id=122">
-                        {" "}
-                      </a>
-                    </li>
-                  </ul>
-                </li> */}
                 <li className="gall_li_teacher ">
                   <span className="sound_only">1 </span>
                   <ul className="gall_con">
@@ -665,40 +552,30 @@ export function IntroduceTeacher() {
                     </li>
                     <li className="gall_text_href">
                       <Link to="/board/introduce/teacher/teacherdetail8" className="add_title">
-                        손정규
+                        최서라
                       </Link>
                       <br />
-                      <b style={{ color: "#333" }}>심리치료/심리검사</b>
+                      <b style={{ color: "#333" }}>언어치료사</b>
                       <br />
                       <br />
                       <div style={{ lineHeight: "22px", display: "inline-block", color: "#666" }}>
-                        가톨릭대학교 사회과학부 심리/사회복지학과 학사
-                        <br />
-                        성신여자대학교 일반대학원 음악치료학과 음악치료 전공 석사
+                        대구카톨릭대학교 언어청각치료학
                       </div>
                       <br />
                       <div style={{ lineHeight: "22px", display: "inline-block" }}>
-                        前) 국군수도병원
+                        前) 삼성소리샘복지관
                         <br />
-                        前) 분당상탑초등학교 특수반
+                        前) 호평언어심리상담센터
                         <br />
-                        前) 서울상담심리연구소
+                        前) 구로아동심리발달센터
                         <br />
-                        前) 서울까리따스알코올상담센터
+                        前) 경신언어청각연구소
                         <br />
-                        前) 청소년희망재단
+                        前) 카톨릭청각음성재활센터
                         <br />
                         前) 두그루아동심리상담센터
                         <br />
-                        現) 한신플러스케어
-                        <br />
-                        現) 전국음악치료사협회
-                        <br />
-                        現) 헬로스마일
-                        <br />
-                        現) 마음과 음악 치료커뮤니티
-                        <br />
-                        現) 성신여대 출강
+                        前) 부산광역시장애인복지관
                         <br />
                         現) 구리언어심리상담센터
                       </div>
@@ -708,6 +585,116 @@ export function IntroduceTeacher() {
                     </li>
                     <li>
                       <Link to="/board/introduce/teacher/teacherdetail8">
+                        {" "}
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li className="gall_li_teacher ">
+                  <span className="sound_only">1 </span>
+                  <ul className="gall_con">
+                    <li className="gall_href">
+                      <Link to="/board/introduce/teacher/teacherdetail9">
+                        <div className="profile">
+                          <img
+                            src={vars.REACT_APP_URL + '/image/no_image.png'}
+                            align="absmiddle"
+                            border={0}
+                          />
+                        </div>{" "}
+                      </Link>
+                    </li>
+                    <li className="pr_btn">
+                      <Link to="/board/introduce/teacher/teacherdetail9">
+                        프로필 보기
+                      </Link>
+                    </li>
+                    <li className="gall_text_href">
+                      <Link to="/board/introduce/teacher/teacherdetail9" className="add_title">
+                        최수하
+                      </Link>
+                      <br />
+                      <b style={{ color: "#333" }}>ABA / ESDM 치료사</b>
+                      <br />
+                      <br />
+                      <div style={{ lineHeight: "22px", display: "inline-block", color: "#666" }}>
+                      대구사이버대학교 행동치료학, 특수교육학
+                      <br />
+                      Early Start Denver Model – Introductory workshop
+                      <br />
+                      Early Start Denver Model – Advnced workshop
+                      <br />
+                      DIR Floortime 101 cerificate
+                      </div>
+                      <br />
+                      <div style={{ lineHeight: "22px", display: "inline-block" }}>
+                        前) 라라ABA연구소
+                        <br />
+                        現) 구리언어심리상담센터
+                      </div>
+                      <br />
+                      <p />
+                      <Link to="/board/introduce/teacher/teacherdetail9"/>
+                    </li>
+                    <li>
+                      <Link to="/board/introduce/teacher/teacherdetail9">
+                        {" "}
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li className="gall_li_teacher ">
+                  <span className="sound_only">1 </span>
+                  <ul className="gall_con">
+                    <li className="gall_href">
+                      <Link to="/board/introduce/teacher/teacherdetail10">
+                        <div className="profile">
+                          <img
+                            src={vars.REACT_APP_URL + '/image/no_image.png'}
+                            align="absmiddle"
+                            border={0}
+                          />
+                        </div>{" "}
+                      </Link>
+                    </li>
+                    <li className="pr_btn">
+                      <Link to="/board/introduce/teacher/teacherdetail10">
+                        프로필 보기
+                      </Link>
+                    </li>
+                    <li className="gall_text_href">
+                      <Link to="/board/introduce/teacher/teacherdetail10" className="add_title">
+                        신현영
+                      </Link>
+                      <br />
+                      <b style={{ color: "#333" }}>ABA 치료사</b>
+                      <br />
+                      <br />
+                      <div style={{ lineHeight: "22px", display: "inline-block", color: "#666" }}>
+                        광운대학교 언어치료학 석사 과정
+                        <br />
+                        ABA KOREA ACADEMY – COURSEWORK
+                      </div>
+                      <br />
+                      <div style={{ lineHeight: "22px", display: "inline-block" }}>
+                        前) 포천시노인복지관
+                        <br />
+                        前) 한국다문화복지협회
+                        <br />
+                        前) 의정부시종합사회복지관
+                        <br />
+                        前) 라솜메디칼의원아동발달클리닉
+                        <br />
+                        前) 강북ABA아동발달연구소 (오전조기, 오후조기, 사회성그룹, 개별기능향상)
+                        <br />
+                        現) 구리언어심리상담센터
+                      </div>
+                      <br />
+                      <p />
+                      <Link to="/board/introduce/teacher/teacherdetail10"/>
+                    </li>
+                    <li>
+                      <Link to="/board/introduce/teacher/teacherdetail10">
                         {" "}
                       </Link>
                     </li>

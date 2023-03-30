@@ -67,7 +67,7 @@ export default function Index() {
   return (
     <>    
     <section id="visual">
-    <FirstModal/>
+    {/* <FirstModal/> */}
     <SecondModal/>
     <div className="rslides_container">
         <ul className="rslides centered-btns centered-btns1" id="slider1">
