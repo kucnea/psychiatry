@@ -42,18 +42,18 @@ export function CEO() {
       {/* 상단서브타이틀 */}
       <div className="hgroup">
         <h1>
-          <span>센터장 소개</span>
+          <span>원장/부원장 소개</span>
         </h1>
         <p>
           {" "}
           <span className="home">
             <span>HOME</span>
           </span>
-          <span className="fb">센터장 소개</span>{" "}
+          <span className="fb">원장/부원장 소개</span>{" "}
         </p>
       </div>
       {/* //상단서브타이틀*/}
-      <p className="bu1">{vars.REACT_APP_CENTER_NAME}의 센터장을 소개합니다.</p>
+      <p className="bu1">{vars.REACT_APP_CENTER_NAME}의 원장/부원장을 소개합니다.</p>
       {/* 탭    <div className="tabgroup">
      <div className="tabnavi">
 <ul>
@@ -113,7 +113,7 @@ export function CEO() {
                       <span 
                         className="add_title"
                         style={{ marginBottom: "5px", fontSize: "2em", color: "#333", fontWeight: "bold", display: "block", paddingBottom: "3px" }}>
-                          이가영 센터장
+                          이가영 원장
                           </span>
                       {/* <span className="add_title_slogun"></span>*/}
                     </td>

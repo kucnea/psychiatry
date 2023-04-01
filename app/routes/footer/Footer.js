@@ -17,7 +17,8 @@ export function Footer() {
     }
 
     const githubMin = "https://kucnea.github.io/";
-    
+    const guriCity = "https://www.guri.go.kr/";
+
     const goToTop = () => {
         window.pageYOffset = 0;
         document.getElementById('btn_top').style.display="block";
@@ -159,8 +160,10 @@ export function Footer() {
             <div id="fotter_sns">
             <Link to="/">
                 <img
-                alt={vars.REACT_APP_CENTER_NAME}
-                src={vars.REACT_APP_URL + '/image/toplogo.png'}
+                alt="협약기관1"
+                src={vars.REACT_APP_URL + '/image/guri_logo.jpg'}
+                style={{width:"108px",left:"-108px",position:"relative"}}
+                onClick={() => {window.open(guriCity)}}
                 />
             </Link>
             {/* <a href="http://cafe.naver.com/" target="_blank" ><img src="http://www.gurislp.com/board/img/sns_btn_ncafe_over.png" alt="구리언어심리상담센터 카페"/></a> 
@@ -193,7 +196,7 @@ export function Footer() {
             </li>
             <li id="introLi" className="sitemap_1li sitemap01 first hide">
                 <Link className="sitemap_1da" onClick={()=>introduceOpen()}>
-                치료실 소개
+                센터 소개
                 </Link>
                 <Link id="introOpen" className="sitemap_2dli_open" onClick={()=>introduceOpen()}>
                 <span className="sound_only">치료실소개 하위메뉴 열기</span>
@@ -210,7 +213,7 @@ export function Footer() {
                 </li>
                 <li>
                     <Link to="/board/introduce/teacher/ceo" onClick={() => forceCloseSiteMap()}>
-                    <span>센터장 소개</span>
+                    <span>원장/부원장 소개</span>
                     </Link>
                 </li>
                 <li>

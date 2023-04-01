@@ -19,21 +19,38 @@ export default function Index() {
     // if(visualNum%2==0) console.log(visualNum+' : same!!');
     // else console.log(visualNum+' : not same!!')
 
-    if(visualNum%2==0) {
+    if(visualNum%3==0) {
         document.getElementById('visual0').className = "centered-btns1_s1";
+        document.getElementById('visual2').className = "centered-btns1_s3";
         document.getElementById('visual1').className = "centered-btns1_s2 centered-btns_here";
-        document.getElementById('centered-btns1_s0').className = "";
-        document.getElementById('centered-btns1_s0').style = "display:block; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
-        document.getElementById('centered-btns1_s1').className = "centered-btns1_on";
-        document.getElementById('centered-btns1_s1').style = "display:list-item; float:left; position: relative; opacity:1; z-index:2; transition: opacity 500ms ease-in-out 0s;";
+        document.getElementById('centered-btns1_s1').className = "";
+        document.getElementById('centered-btns1_s1').style = "display:block; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
+        document.getElementById('centered-btns1_s3').className = "";
+        document.getElementById('centered-btns1_s3').style = "display:block; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
+        document.getElementById('centered-btns1_s2').className = "centered-btns1_on";
+        document.getElementById('centered-btns1_s2').style = "display:list-item; float:left; position: relative; opacity:1; z-index:2; transition: opacity 500ms ease-in-out 0s;";
         setVisualNum(1);
-    }else{
+    }else if(visualNum%3==1){
+        document.getElementById('visual0').className = "centered-btns1_s1";
         document.getElementById('visual1').className = "centered-btns1_s2";
-        document.getElementById('visual0').className = "centered-btns1_s1 centered-btns_here";
+        document.getElementById('visual2').className = "centered-btns1_s3 centered-btns_here";
         document.getElementById('centered-btns1_s1').className = "";
         document.getElementById('centered-btns1_s1').style = "display:list-item; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
-        document.getElementById('centered-btns1_s0').className = "centered-btns1_on";
-        document.getElementById('centered-btns1_s0').style = "display:block; float:left; position: relative; opacity:1; z-index:2; transition: opacity 500ms ease-in-out 0s;";
+        document.getElementById('centered-btns1_s2').className = "";
+        document.getElementById('centered-btns1_s2').style = "display:list-item; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
+        document.getElementById('centered-btns1_s3').className = "centered-btns1_on";
+        document.getElementById('centered-btns1_s3').style = "display:block; float:left; position: relative; opacity:1; z-index:2; transition: opacity 500ms ease-in-out 0s;";
+        setVisualNum(2);
+    }else{
+        document.getElementById('visual1').className = "centered-btns1_s2";
+        document.getElementById('visual2').className = "centered-btns1_s3";
+        document.getElementById('visual0').className = "centered-btns1_s1 centered-btns_here";        
+        document.getElementById('centered-btns1_s2').className = "";
+        document.getElementById('centered-btns1_s2').style = "display:list-item; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
+        document.getElementById('centered-btns1_s3').className = "";
+        document.getElementById('centered-btns1_s3').style = "display:list-item; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
+        document.getElementById('centered-btns1_s1').className = "centered-btns1_on";
+        document.getElementById('centered-btns1_s1').style = "display:block; float:left; position: relative; opacity:1; z-index:2; transition: opacity 500ms ease-in-out 0s;";
         setVisualNum(0);
     }
     
@@ -44,20 +61,37 @@ export default function Index() {
         if(document.getElementById('visual0').className == "centered-btns1_s1 centered-btns_here"){
             // console.log('same');
             document.getElementById('visual0').className = "centered-btns1_s1";
+            document.getElementById('visual2').className = "centered-btns1_s3";
             document.getElementById('visual1').className = "centered-btns1_s2 centered-btns_here";
-            document.getElementById('centered-btns1_s0').className = "";
-            document.getElementById('centered-btns1_s0').style = "display:block; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
-            document.getElementById('centered-btns1_s1').className = "centered-btns1_on";
-            document.getElementById('centered-btns1_s1').style = "display:list-item; float:left; position: relative; opacity:1; z-index:2; transition: opacity 500ms ease-in-out 0s;";
+            document.getElementById('centered-btns1_s1').className = "";
+            document.getElementById('centered-btns1_s1').style = "display:block; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
+            document.getElementById('centered-btns1_s3').className = "";
+            document.getElementById('centered-btns1_s3').style = "display:block; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
+            document.getElementById('centered-btns1_s2').className = "centered-btns1_on";
+            document.getElementById('centered-btns1_s2').style = "display:list-item; float:left; position: relative; opacity:1; z-index:2; transition: opacity 500ms ease-in-out 0s;";
             setVisualNum(1);
+        }else if(document.getElementById('visual1').className == "centered-btns1_s2 centered-btns_here"){
+            document.getElementById('visual0').className = "centered-btns1_s1";
+            document.getElementById('visual1').className = "centered-btns1_s2";
+            document.getElementById('visual2').className = "centered-btns1_s3 centered-btns_here";
+            document.getElementById('centered-btns1_s1').className = "";
+            document.getElementById('centered-btns1_s1').style = "display:block; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
+            document.getElementById('centered-btns1_s2').className = "";
+            document.getElementById('centered-btns1_s2').style = "display:block; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
+            document.getElementById('centered-btns1_s3').className = "centered-btns1_on";
+            document.getElementById('centered-btns1_s3').style = "display:list-item; float:left; position: relative; opacity:1; z-index:2; transition: opacity 500ms ease-in-out 0s;";
+            setVisualNum(2);
         }else{
             // console.log('not same');
             document.getElementById('visual1').className = "centered-btns1_s2";
+            document.getElementById('visual2').className = "centered-btns1_s3";
             document.getElementById('visual0').className = "centered-btns1_s1 centered-btns_here";
-            document.getElementById('centered-btns1_s1').className = "";
-            document.getElementById('centered-btns1_s1').style = "display:list-item; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
-            document.getElementById('centered-btns1_s0').className = "centered-btns1_on";
-            document.getElementById('centered-btns1_s0').style = "display:block; float:left; position: relative; opacity:1; z-index:2; transition: opacity 500ms ease-in-out 0s;";
+            document.getElementById('centered-btns1_s2').className = "";
+            document.getElementById('centered-btns1_s2').style = "display:list-item; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
+            document.getElementById('centered-btns1_s3').className = "";
+            document.getElementById('centered-btns1_s3').style = "display:list-item; float:none; position: absolute; opacity:0; z-index:1; transition: opacity 500ms ease-in-out 0s;";
+            document.getElementById('centered-btns1_s1').className = "centered-btns1_on";
+            document.getElementById('centered-btns1_s1').style = "display:block; float:left; position: relative; opacity:1; z-index:2; transition: opacity 500ms ease-in-out 0s;";
             setVisualNum(0);
         }
     }, 5000);
@@ -68,11 +102,11 @@ export default function Index() {
     <>    
     <section id="visual">
     {/* <FirstModal/> */}
-    <SecondModal/>
+    {/* <SecondModal/> */}
     <div className="rslides_container">
         <ul className="rslides centered-btns centered-btns1" id="slider1">
         <li
-            id="centered-btns1_s0"
+            id="centered-btns1_s1"
             className="centered-btns1_on" 
             style={{
             transition: "opacity 500ms ease-in-out",
@@ -83,11 +117,25 @@ export default function Index() {
             opacity: 1
             }}
         >
+            <img alt="visual0" src={vars.REACT_APP_URL + '/image/visual3_2.jpg'} />
+        </li>
+        <li
+            className=""
+            id="centered-btns1_s2"
+            style={{
+            transition: "opacity 500ms ease-in-out",
+            float: "none",
+            display: "list-item",
+            position: "absolute",
+            zIndex: 1,
+            opacity: 0
+            }}
+        >
             <img alt="visual1" src={vars.REACT_APP_URL + '/image/visual1.jpg'} />
         </li>
         <li
             className=""
-            id="centered-btns1_s1"
+            id="centered-btns1_s3"
             style={{
             transition: "opacity 500ms ease-in-out",
             float: "none",
@@ -108,13 +156,18 @@ export default function Index() {
         </Link>
         <ul className="centered-btns_tabs centered-btns1_tabs">
         <li id="visual0"className="centered-btns1_s1 centered-btns_here">
-            <Link className="centered-btns1_s1" onClick={() => visual0Chg(1)}>
+            <Link className="centered-btns1_s1" onClick={() => visual0Chg(0)}>
             1
             </Link>
         </li>
         <li id="visual1" className="centered-btns1_s2">
-            <Link className="centered-btns1_s2" onClick={() => visual0Chg(0)}>
+            <Link className="centered-btns1_s2" onClick={() => visual0Chg(1)}>
             2
+            </Link>
+        </li>
+        <li id="visual2"className="centered-btns1_s3">
+            <Link className="centered-btns1_s3" onClick={() => visual0Chg(2)}>
+            3
             </Link>
         </li>
         </ul>

@@ -157,7 +157,7 @@ export function Header() {
                 <ul className="gnb">
                   <li id="menu1" className="gnb1d gnb01 first" onMouseOver={() => menuNavi(1)} onMouseOut={() => menuNaviOut(1)}>
                     <Link to="/board/introduce/center" className="gnb1d">
-                      치료실 소개
+                      센터 소개
                     </Link>
                     <div id="menusub1" className="submenu menu01">
                       <ul>
@@ -168,7 +168,7 @@ export function Header() {
                         </li>
                         <li>
                           <Link to="/board/introduce/teacher/ceo">
-                            <span>센터장 소개</span>
+                            <span>원장/부원장 소개</span>
                           </Link>
                         </li>
                         <li>
