@@ -50,7 +50,7 @@ export function TeacherDetail() {
             <span>HOME</span>
           </span>
           <span className="fb">치료사 소개</span>
-          <span className="fb">최서라</span>{" "}
+          <span className="fb">최유림</span>{" "}
         </p>
       </div>
       {/* //상단서브타이틀*/}
@@ -114,7 +114,7 @@ export function TeacherDetail() {
                       <span 
                         className="add_title"
                         style={{ marginBottom: "5px", fontSize: "2em", color: "#333", fontWeight: "bold", display: "block", paddingBottom: "3px" }}>
-                        최서라
+                        최유림
                       </span>
                       {/* <span className="add_title_slogun"></span>*/}
                     </td>
@@ -144,7 +144,7 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      언어치료사
+                      언어재활사
                     </td>
                   </tr>
                   <tr>
@@ -172,7 +172,7 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      대구카톨릭대학교 언어청각치료학
+                      한림대학교 언어병리학과 학사
                     </td>
                   </tr>
                   <tr>
@@ -200,17 +200,7 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      前) 삼성소리샘복지관
-                      <br />
-                      前) 호평언어심리상담센터
-                      <br />
-                      前) 구로아동심리발달센터
-                      <br />
-                      前) 경신언어청각연구소
-                      <br />
-                      前) 카톨릭청각음성재활센터
-                      <br />
-                      前) 부산광역시장애인복지관
+                      前) 이화심리상담센터
                       <br />
                       現) 구리언어심리상담센터
                     </td>
@@ -240,9 +230,7 @@ export function TeacherDetail() {
                       }}
                     >
                       {" "}
-                      언어재활사 2급
-                      <br />
-                      청능사 자격증
+                      2급 언어재활사 자격증(보건복지부)
                     </td>
                   </tr>
                   
@@ -261,12 +249,12 @@ export function TeacherDetail() {
         <div id="bo_v_bot">
           <ul className="bo_v_nb">
             <li>
-              <Link to="/board/introduce/teacher/teacherdetail7" className="btn_b01">
+              <Link to="/board/introduce/teacher/teacherdetail1" className="btn_b01">
                 이전글
               </Link>
             </li>
             <li>
-              <Link to="/board/introduce/teacher/teacherdetail10" className="btn_b01">
+              <Link to="/board/introduce/teacher/teacherdetail3" className="btn_b01">
                 다음글
               </Link>
             </li>{" "}

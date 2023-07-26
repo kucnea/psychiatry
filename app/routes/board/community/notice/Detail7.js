@@ -57,21 +57,44 @@ export function NoticeDetail() {
       <div id="bo_v_table">공지사항</div>
       <article id="bo_v" style={{ width: "100%" }}>
         <header>
-          <h1 id="bo_v_title">ABA 기능향상 개별 수업 3월부터 개설합니다. </h1>
+          <h1 id="bo_v_title">시립동구어린이집 자문활동을 소개합니다 ^^ </h1>
         </header>
         <section id="bo_v_atc">
           <h2 id="bo_v_atc_title">본문</h2>
           {/* 본문 내용 시작 { */}
           <div id="bo_v_con">
-            안녕하세요.
+          시립동구어린이집은 구리언어심리상담센터와 함께 협약을 맺어, <br />
+          보다 나은 아동발달을 위해 노력하고 있습니다. <br />
+          <br />
+          저희는 아이들의 성장과 발전을 위해 노력하며, <br />
+          이번 활동에서는 5개 사랑반에서 아이들과 함께 시간을 보내며, <br />
+          담임선생님들과 함께 개별화 교육계획 IEP에 대해 이야기를 나누었습니다. <br />
+          <br />
+          이러한 노력으로 아이들이 보다 즐겁고 성장할 수 있는 <br />
+          시간을 보낼 수 있도록 노력하고 있습니다. <br />
+          <br />
+          앞으로도 저희 
+          <span style={{ color: "rgb(245,133,63)"}}>구리언어</span>
+          <span style={{ color: "rgb(16,167,126)" }}>심리상담센터</span>
+          는 아이들을 위해 긴밀하게 협력하겠습니다 ^^<br />
+          <br />
+          감사합니다.<br />
+          <br />
+          자문/협약기관 문의 : {vars.REACT_APP_CENTER_TEL}, 010-7569-5527
             <br /><br />
-            구리언어심리상담센터 새로운 수업 정보입니다.<br/>
-            ABA 기능향상 개별 수업 3월부터 개설합니다.<br/>
-            언어, 인지, 소근육, 자조, 학습 증진 및 문제행동 감소를 위한 집중개입 수업입니다.<br /><br/>
-            {/* &lt;원장님 직접 수업 및 모든 아동 원장님 직접 슈퍼비전&gt;<br /> */}
-            문의 : {vars.REACT_APP_CENTER_TEL}, 010-7569-5527
-            <br /><br />
-            감사합니다.
+
+          <img
+            src={vars.REACT_APP_URL + '/image/notice/3.jpg'}
+            alt="자문활동 사진"
+          />
+          <img
+            src={vars.REACT_APP_URL + '/image/notice/2.jpg'}
+            alt="자문활동 사진"
+          />
+           <img
+            src={vars.REACT_APP_URL + '/image/notice/1.jpg'}
+            alt="자문활동 사진"
+          />
           </div>
           {/* } 본문 내용 끝 */}
           <div id="bo_v_img"></div>

@@ -594,59 +594,6 @@ export function IntroduceTeacher() {
                   <span className="sound_only">1 </span>
                   <ul className="gall_con">
                     <li className="gall_href">
-                      <Link to="/board/introduce/teacher/teacherdetail9">
-                        <div className="profile">
-                          <img
-                            src={vars.REACT_APP_URL + '/image/no_image.png'}
-                            align="absmiddle"
-                            border={0}
-                          />
-                        </div>{" "}
-                      </Link>
-                    </li>
-                    <li className="pr_btn">
-                      <Link to="/board/introduce/teacher/teacherdetail9">
-                        프로필 보기
-                      </Link>
-                    </li>
-                    <li className="gall_text_href">
-                      <Link to="/board/introduce/teacher/teacherdetail9" className="add_title">
-                        최수하
-                      </Link>
-                      <br />
-                      <b style={{ color: "#333" }}>ABA / ESDM 치료사</b>
-                      <br />
-                      <br />
-                      <div style={{ lineHeight: "22px", display: "inline-block", color: "#666" }}>
-                      대구사이버대학교 행동치료학, 특수교육학
-                      <br />
-                      Early Start Denver Model – Introductory workshop
-                      <br />
-                      Early Start Denver Model – Advnced workshop
-                      <br />
-                      DIR Floortime 101 cerificate
-                      </div>
-                      <br />
-                      <div style={{ lineHeight: "22px", display: "inline-block" }}>
-                        前) 라라ABA연구소
-                        <br />
-                        現) 구리언어심리상담센터
-                      </div>
-                      <br />
-                      <p />
-                      <Link to="/board/introduce/teacher/teacherdetail9"/>
-                    </li>
-                    <li>
-                      <Link to="/board/introduce/teacher/teacherdetail9">
-                        {" "}
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="gall_li_teacher ">
-                  <span className="sound_only">1 </span>
-                  <ul className="gall_con">
-                    <li className="gall_href">
                       <Link to="/board/introduce/teacher/teacherdetail10">
                         <div className="profile">
                           <img

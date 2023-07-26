@@ -300,6 +300,12 @@ export function CEO() {
                       {" "}
                       AMAZON 임직원 대상 - Coping with critical illness
                       <br />
+                      화이자 임직원 강의 - 마음의 병에 대처하는 방법
+                      <br />
+                      Emerson 임직원 강의 - 아이를 위한 회복탄력성
+                      <br />
+                      시립동구어린이집 - 부모교육
+                      <br />
                     </td>
                   </tr>
                   <tr>

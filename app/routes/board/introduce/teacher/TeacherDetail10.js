@@ -264,7 +264,7 @@ export function TeacherDetail() {
         <div id="bo_v_bot">
           <ul className="bo_v_nb">
             <li>
-              <Link to="/board/introduce/teacher/teacherdetail9" className="btn_b01">
+              <Link to="/board/introduce/teacher/teacherdetail8" className="btn_b01">
                 이전글
               </Link>
             </li>{" "}

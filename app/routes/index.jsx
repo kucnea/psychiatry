@@ -5,8 +5,9 @@ import { useOptionalUser } from "~/utils";
 import * as vars from "../models/js/variable.js";
 import { Visual } from "./section/Visual.js";
 import Cookies from 'js-cookie';
-import {FirstModal} from "./modal/FirstModal.js"
-import {SecondModal} from "./modal/SecondModal.js"
+// import {FirstModal} from "./modal/FirstModal.js";
+// import {SecondModal} from "./modal/SecondModal.js";
+import {ThirdModal} from "./modal/ThirdModal.js";
 
 export default function Index() {
   const user = useOptionalUser();
@@ -103,6 +104,7 @@ export default function Index() {
     <section id="visual">
     {/* <FirstModal/> */}
     {/* <SecondModal/> */}
+    <ThirdModal/>
     <div className="rslides_container">
         <ul className="rslides centered-btns centered-btns1" id="slider1">
         <li
